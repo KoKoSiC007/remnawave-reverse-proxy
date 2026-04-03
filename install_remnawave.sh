@@ -4,8 +4,8 @@ SCRIPT_VERSION="3.0.6"
 UPDATE_AVAILABLE=false
 DIR_REMNAWAVE="/usr/local/remnawave_reverse/"
 LANG_FILE="${DIR_REMNAWAVE}selected_language"
-SCRIPT_URL="https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/install_remnawave.sh"
-LANG_BASE_URL="https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/src/lang"
+SCRIPT_URL="https://raw.githubusercontent.com/KoKoSiC007/remnawave-reverse-proxy/refs/heads/main/install_remnawave.sh"
+LANG_BASE_URL="https://raw.githubusercontent.com/KoKoSiC007/remnawave-reverse-proxy/refs/heads/main/src/lang"
 
 COLOR_RESET="\033[0m"
 COLOR_GREEN="\033[1;32m"
@@ -23,8 +23,8 @@ download_with_mirrors() {
     # Mirror URLs (GitHub raw content proxies)
     local mirrors=(
         "$file_url"
-        "https://cdn.jsdelivr.net/gh/eGamesAPI/remnawave-reverse-proxy@main/${file_url#*main/}"
-        "https://raw.githack.com/eGamesAPI/remnawave-reverse-proxy/main/${file_url#*main/}"
+        "https://cdn.jsdelivr.net/gh/KoKoSiC007/remnawave-reverse-proxy@main/${file_url#*main/}"
+        "https://raw.githack.com/KoKoSiC007/remnawave-reverse-proxy/main/${file_url#*main/}"
         "https://ghproxy.com/${file_url}"
     )
     
