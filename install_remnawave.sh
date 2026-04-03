@@ -125,7 +125,7 @@ load_language() {
 declare -gA LANG=(
     [CHOOSE_LANG]="Select language:"
     [LANG_EN]="English"
-    [LANG_RU]="Русский"
+    [LANG_RU]="Русский!"
 )
 
 show_language() {
